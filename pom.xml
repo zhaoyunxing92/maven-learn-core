@@ -6,7 +6,7 @@
 
     <groupId>io.github.sunny</groupId>
     <artifactId>maven-learn-core</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
 
     <properties>
         <service-api-dependencies>1.0</service-api-dependencies>
