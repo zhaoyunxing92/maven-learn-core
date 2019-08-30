@@ -22,6 +22,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class AppWebMvcConfigurerAdapter implements WebMvcConfigurer {
 
     public AppWebMvcConfigurerAdapter() {
-        log.error("AppBean...");
+        log.info("AppWebMvcConfigurerAdapter bean loading...");
     }
 }

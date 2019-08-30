@@ -21,6 +21,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @ConditionalOnWebApplication
 public class WebMvcConfigurerAdapter implements WebMvcConfigurer {
     public WebMvcConfigurerAdapter() {
-        log.error("WebBean....");
+        log.error("WebMvcConfigurerAdapter bean loading....");
     }
 }
