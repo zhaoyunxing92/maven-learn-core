@@ -13,6 +13,7 @@
         <web-api-dependencies>1.0</web-api-dependencies>
         <app-api-dependencies>1.0</app-api-dependencies>
         <spring.boot.version>2.1.0.RELEASE</spring.boot.version>
+        <fastjson.version>1.2.58</fastjson.version>
     </properties>
 
     <dependencies>
@@ -34,6 +35,13 @@
             <groupId>io.github.sunny</groupId>
             <artifactId>app-api-dependencies</artifactId>
             <version>${app-api-dependencies}</version>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>
