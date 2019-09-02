@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.github.sunny.core.adapter.CcclubsApiAutoConfiguration
+io.github.sunny.core.adapter.AppWebMvcConfigurerAdapter,\
+io.github.sunny.core.adapter.WebMvcConfigurerAdapter
