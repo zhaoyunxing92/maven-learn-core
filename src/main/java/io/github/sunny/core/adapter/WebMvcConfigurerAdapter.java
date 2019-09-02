@@ -27,9 +27,9 @@ import java.util.List;
  * @des:
  */
 @Slf4j
-@Configuration
-@ConditionalOnClass(WebBean.class)
-@ConditionalOnWebApplication
+//@Configuration
+//@ConditionalOnClass(WebBean.class)
+//@ConditionalOnWebApplication
 public class WebMvcConfigurerAdapter implements WebMvcConfigurer {
     public WebMvcConfigurerAdapter() {
         log.error("WebMvcConfigurerAdapter bean loading....");
